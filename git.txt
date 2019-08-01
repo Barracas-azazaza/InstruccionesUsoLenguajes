@@ -1,0 +1,23 @@
+#git config --global user.name "Barracas-azazaza" #Declara nombre global
+#git config --global user.email "azazazaaaaaa1@gmail.com" #Declara correo global
+#git init #Declara inicializar repo
+#git add -A o git add . #Agrega todos los archivos nuevos, modificados o etc.
+#git commit -m "Razón del repo" #Guarda los archivos
+#git status #Muestra el estado de lo que se hace
+#git reset HEAD nombre.extensión #stage para sacarlo y no guardarlo
+#git checkout -- nombre.extensión #elimina los últimos cambios cuando no se ha guardado
+#.gitignore para lo que no queremos subir, adentro se escribe la carpeta o documentos 
+# que no queremos, el nombre debe ser el que salga en el git status
+#git checkout sirve también para recuperar archivos recientemente borrados
+#git rm nombre.extensión #Elimina archivos
+#git checkout HASH del log
+#git checkout -b nombrenuevarama
+#git branch #ver las ramas, el asterisco muestra en cuál estamos
+#git checkout master #regresa al último estado guardado de master
+#git branch -D nombre #Borra la rama
+#git merge nombre #Une los nuevos cambios a master
+#git remote add origin URL y termina en .git
+#git push -u origin master
+#Copiar el link
+#git clone link #Descargar
+#git pull origin master #Actualizar cambios
